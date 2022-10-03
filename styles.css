@@ -132,10 +132,10 @@ text-align: center;
     width: 5rem;
     border-radius: 10px;
   }
-  footer{
+  /* footer{
     display: grid;
     grid-template-rows: 50% 50%;
-  }
+  } */
   img{
     /* border-radius: %; */
     width: 5rem;
