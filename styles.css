@@ -72,6 +72,19 @@ img{
   margin-left: 5rem;
   margin-top: 1rem;
   /* position: absolute; */
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.estudios{
+  width: auto;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.trabajos{
+  width: auto;
+  margin-left: 5rem;
+  margin-top: 1rem;
 }
 footer{
   display: grid;
@@ -89,5 +102,11 @@ text-align: center;
   
   display: grid;
   grid-template-columns: repeat(5, 9rem);
-  grid-gap: 12px;
+  grid-gap: 12px;}
+  .efecto{
+  transition: 0.5s;
+  object-fit: cover;
+}
+.efecto:hover{
+  transform: scale(1.3);
 }
