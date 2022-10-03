@@ -122,10 +122,10 @@ text-align: center;
     object-fit: cover;
   }
   .foto{
-    border-radius: 100%;
-    width: 3rem;
+    border-radius: 10%;
+    width: 4rem;
     margin-left: 45%;
-    margin-top: 10rem;
+    margin-top: 9rem;
     position: absolute;
   }
   .mapa{
@@ -149,4 +149,14 @@ text-align: center;
     display: flex;
     flex-direction: column-reverse;
    }
+   .estudios{
+    width: auto;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .trabajos{
+    width: auto;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
 }
