@@ -110,3 +110,43 @@ text-align: center;
 .efecto:hover{
   transform: scale(1.3);
 }
+
+@media (max-width: 600px) {
+  .lenguajes{
+    display: grid;
+    grid-template-columns: repeat(3, 4rem);
+    grid-gap: 12px;
+  padding-left: 0rem;}
+    .efecto{
+    transition: 0.5s;
+    object-fit: cover;
+  }
+  .foto{
+    border-radius: 100%;
+    width: 3rem;
+    margin-left: 45%;
+    margin-top: 10rem;
+    position: absolute;
+  }
+  .mapa{
+    width: 5rem;
+    border-radius: 10px;
+  }
+  footer{
+    display: grid;
+    grid-template-rows: 50% 50%;
+  }
+  img{
+    /* border-radius: %; */
+    width: 5rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    /* position: absolute; */
+    transition: 0.5s;
+    object-fit: cover;
+  }
+  .info{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+}
