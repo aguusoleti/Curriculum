@@ -159,4 +159,13 @@ text-align: center;
     margin-left: 1rem;
     margin-top: 1rem;
   }
+  .column1{
+    background-color: rgb(227, 227, 230);
+    background-size: 80%;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    /* padding: 3rem; */
+    border-radius: 1rem;
+    box-shadow: 20px 16px rgba(82, 82, 83, 0.082)
+  }
 }
